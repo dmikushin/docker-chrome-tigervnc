@@ -1,0 +1,10 @@
+version: '2.4'
+
+services:
+  citrix-workspace:
+    image: docker-citrix-workspace
+    hostname: citrix-workspace
+    restart: unless-stopped
+    tty: true
+    ports:
+      - 127.0.0.1:15901:5901
