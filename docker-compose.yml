@@ -1,9 +1,9 @@
 version: '2.4'
 
 services:
-  citrix-workspace:
-    image: docker-citrix-workspace
-    hostname: citrix-workspace
+  chrome-tigervnc:
+    image: docker-chrome-tigervnc
+    hostname: chrome-tigervnc
     restart: unless-stopped
     tty: true
     ports:
